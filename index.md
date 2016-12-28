@@ -17,3 +17,6 @@ I'm a developer from Porto Alegre with the following interests:
  * ASIC
  * Firmware development
 
+ * Linkedin: https://www.linkedin.com/in/fprodrigues/
+
+
