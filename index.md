@@ -1,6 +1,6 @@
 Hello!
 
-I'm a developer from Porto Alegre with the following interests:
+I'm a software developer from Porto Alegre with the following interests in mind:
 
  * Cryptography
    * Identity management
