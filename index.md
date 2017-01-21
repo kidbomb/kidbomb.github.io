@@ -2,7 +2,7 @@ Hello!
 
 I'm a developer from Porto Alegre with the following interests:
 
- * Criptography
+ * Cryptography
    * Identity management
    * Cryptographic libraries
    * Secure messaging
@@ -11,7 +11,9 @@ I'm a developer from Porto Alegre with the following interests:
    * Cryptography standards
  * Interoperabilty
    * Web/REST Services
+   * API definition
    * Semantic Web
+ * Embedded software development
  * Software architecture
  * USB Devices
  * ASIC
