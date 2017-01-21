@@ -13,11 +13,11 @@ I'm a software developer from Porto Alegre with the following interests in mind:
    * Web/REST Services
    * API definition
    * Semantic Web
- * Embedded software development
+ * Embedded software/firmware development
  * Software architecture
  * USB Devices
  * ASIC
- * Firmware development
+
 
  * Linkedin: https://www.linkedin.com/in/fprodrigues/
 
