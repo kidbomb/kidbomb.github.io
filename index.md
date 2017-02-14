@@ -20,5 +20,7 @@ I'm a software developer from Porto Alegre with the following interests in mind:
 
 
  * Linkedin: https://www.linkedin.com/in/fprodrigues/
+ * Github: https://github.com/kidbomb
+ * Keybase: https://keybase.io/kidbomb
 
 
