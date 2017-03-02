@@ -1,0 +1,68 @@
+==================================================================
+https://keybase.io/kidbomb
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://kidbomb.github.io
+  * I am kidbomb (https://keybase.io/kidbomb) on keybase.
+  * I have a public key with fingerprint A0E3 5546 1DBD 974A 9D57  BFF6 09B5 836B F3FA F8B8
+
+To do so, I am signing this object:
+
+{
+    "body": {
+        "key": {
+            "eldest_kid": "0101b1e94d600e5682dd9801d2c1adb5b382c1b0dde37bf1cad502f0029302aeb1360a",
+            "fingerprint": "a0e355461dbd974a9d57bff609b5836bf3faf8b8",
+            "host": "keybase.io",
+            "key_id": "09b5836bf3faf8b8",
+            "kid": "0101b1e94d600e5682dd9801d2c1adb5b382c1b0dde37bf1cad502f0029302aeb1360a",
+            "uid": "de649925a7f9b6fa4097ba0cc2b72619",
+            "username": "kidbomb"
+        },
+        "service": {
+            "hostname": "kidbomb.github.io",
+            "protocol": "https:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "ctime": 1488425315,
+    "expire_in": 157680000,
+    "prev": "8cccf5a68d9ac9637f2eee4d4aa0b7fe639faf5c15ba7aa03e9424d7c5e40452",
+    "seqno": 19,
+    "tag": "signature"
+}
+
+which yields the signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: Keybase OpenPGP v2.0.64
+Comment: https://keybase.io/crypto
+
+yMIoAnicrVJbSFRBGD6rZSpu2EUMksojXV1tzv2cLelGJIVYCRElrjNn5uyezD3r
+2bOrUklUD/kQ1XahLHso08ogKLpoEFlRkRAUVGBg93tUFGVKUXOsHqLX5mVm/vm+
+b77/47/iTWbSPXObitsZ+3WLp7trf4xZfna7voZFFq5n/WvYKjK4kdWYRJ1AlYlZ
+Pws4wCGOaCKWASCSrPIYayrgMK9zECMJCSo9IYAxERRkcDrEEuANAHhNADwkiBNk
+AFkfa5jhILEjthl2qCwERJAkUeYwwpoiQg1LlG3IQEOSKsjIEAxoqEilxJAVdRnU
+HIJRUmhatEYvgV/2/sX/Z9+xQTlMZFHTeAkqhoZkA4pAUxAEus4jhZc5zQVGiR2G
+1cT1amJkVSN2nY+lxbipEzdXt5G/AYVB0wnF0K+eIrblWLq1mj6HHCcS9bt0pz7i
+4msJCvxWCiAzjGmWlBEndtS0wqyfo0jdMV1pTlRVkZcETvKxpC5i2iRgughJkVVA
+l/sPiVNJVdd1Q4KyijWoa7KgGDwhRMQihAApBpEFjUYq6ZyEoEJrAs2SF7GiS0QE
+osSzbm81YYtqa9QnDFLNqBkMQydmE3bdpYvlQxhPOpMyNMkdMiY9LfPP6LV1pTKn
+vpYs6avozT39Um5b4fPO9xbkT6+63bJHBRPaI/U3Aqsm1nSkN946X1mUNbY/MenW
+sFe1h1Y07FT7Qzl5OxZMuTjveWui9WqSXjT8Wuq7sjTPmNJET8Pu0ic1517k//CW
+LbObHzSOChV3fjySikE4Jz7zzawkU/U2Vy1wPr8df+fp2sx7qOLmyA8P68oLtuUf
+PLx3w5kRGSfbmeTHj8qnNnbMTlwmRX09ednVTZ+Km77POXa9Gz1bPFC22b7Q8LEg
+5X7G6J5FJzYO5GYtDPpQ04X1ndaX8fu2MvGjI2Ptm25mb/HcnVa5dEbJuLeTD7Rs
+3GXldR99nzkPXZ/1peK40bvy2+ZPPwGzCD95
+=5Rkb
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/kidbomb
+
+==================================================================
