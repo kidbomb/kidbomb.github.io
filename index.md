@@ -7,7 +7,7 @@ I'm a software developer from Porto Alegre with the following interests in mind:
    * Cryptographic libraries
    * Secure messaging
    * Cryptographyc algorithms
-   * Smartcards
+   * [Smartcards](smartcards.html)
    * Cryptography standards
  * Interoperabilty
    * Web/REST Services
