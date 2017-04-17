@@ -1,1 +1,1 @@
- * [Competitive Programmer Handbook] (https://cses.fi/book.pdf)
+ * [Competitive Programmer Handbook](https://cses.fi/book.pdf)
