@@ -17,8 +17,7 @@ I'm a software developer from Porto Alegre with the following interests in mind:
  * Software architecture
  * USB Devices
  * ASIC
- * Competitive Programming
-
+ * Competitive Programming (competitive_programming.html)
 
  * Linkedin: [https://www.linkedin.com/in/fprodrigues/]
  * Github: [https://github.com/kidbomb]
