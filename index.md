@@ -6,7 +6,7 @@ I'm a software developer from Porto Alegre with the following interests in mind:
    * Identity management
    * Cryptographic libraries
    * Secure messaging
-   * Cryptographyc algorithms
+   * Cryptographic algorithms
    * [Smartcards](smartcards.html)
    * Cryptography standards
  * Interoperabilty
@@ -17,10 +17,11 @@ I'm a software developer from Porto Alegre with the following interests in mind:
  * Software architecture
  * USB Devices
  * ASIC
+ * Competitive Programming
 
 
- * Linkedin: https://www.linkedin.com/in/fprodrigues/
- * Github: https://github.com/kidbomb
- * Keybase: https://keybase.io/kidbomb
+ * Linkedin: [https://www.linkedin.com/in/fprodrigues/]
+ * Github: [https://github.com/kidbomb]
+ * Keybase: [https://keybase.io/kidbomb]
 
 
