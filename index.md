@@ -18,7 +18,7 @@ I'm a software developer from Porto Alegre with the following interests in mind:
  * USB Devices
  * ASIC
  * [Competitive Programming](competitive_programming.html)
- * [UEFI](smartcards.html)
+ * [UEFI](uefi.html)
 
  * Linkedin: [https://www.linkedin.com/in/fprodrigues/]
  * Github: [https://github.com/kidbomb]
