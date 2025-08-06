@@ -1,0 +1,71 @@
+
+
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <id>http://localhost:4000/</id>
+  <title>Filipe Rodrigues Blog</title>
+  <subtitle>My thoughts and researchs on security, smartcards and embedded devices.</subtitle>
+  <updated>2025-08-06T14:15:36-05:00</updated>
+  <author>
+    <name>Filipe Paz Rodrigues</name>
+    <uri>http://localhost:4000/</uri>
+  </author>
+  <link rel="self" type="application/atom+xml" href="http://localhost:4000/feed.xml"/>
+  <link rel="alternate" type="text/html" hreflang="en"
+    href="http://localhost:4000/"/>
+  <generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator>
+  <rights> © 2025 Filipe Paz Rodrigues </rights>
+  <icon>/assets/img/favicons/favicon.ico</icon>
+  <logo>/assets/img/favicons/favicon-96x96.png</logo>
+
+
+  
+  <entry>
+    <title>CVE 2025-23266 -  A Detailed writeup</title>
+    <link href="http://localhost:4000/posts/nvidia-container-escape-cve-2025-23266/" rel="alternate" type="text/html" title="CVE 2025-23266 -  A Detailed writeup" />
+    <published>2025-08-05T00:00:00-05:00</published>
+  
+    <updated>2025-08-05T00:00:00-05:00</updated>
+  
+    <id>http://localhost:4000/posts/nvidia-container-escape-cve-2025-23266/</id>
+    <content type="text/html" src="http://localhost:4000/posts/nvidia-container-escape-cve-2025-23266/" />
+    <author>
+      <name>Filipe Paz Rodrigues</name>
+    </author>
+
+  
+    
+  
+
+  <summary>Introduction  I read [1] yesterday about a container escape on Nvidia’s Container Runtime. It comes without saying that this is a big deal, since the exploit is rather simple, and as AI workloads increases, so does the use of containerized applications and GPUS. The writeup itself is pretty good, although it does not address a few details regarding the container runtime, more specifically, how ...</summary>
+
+  </entry>
+
+  
+  <entry>
+    <title>Moving to Jekyll</title>
+    <link href="http://localhost:4000/posts/moving-to-jekyll/" rel="alternate" type="text/html" title="Moving to Jekyll" />
+    <published>2025-08-04T00:00:00-05:00</published>
+  
+    <updated>2025-08-04T00:00:00-05:00</updated>
+  
+    <id>http://localhost:4000/posts/moving-to-jekyll/</id>
+    <content type="text/html" src="http://localhost:4000/posts/moving-to-jekyll/" />
+    <author>
+      <name>Filipe Paz Rodrigues</name>
+    </author>
+
+  
+    
+    <category term="blogging," />
+    
+    <category term="jekyll" />
+    
+  
+
+  <summary>Introduction  I used to have an old blog on Worpress. As the time went by, I realized that:     Maintenance cost was more than what I expected. My first deployment was an EC2 with no ALB and a internal database. I am very fond of the “treat you infra as cattle, not pet” principle, so I would need to move away the database to a managed one, while also having a method to deploy the infrastructure...</summary>
+
+  </entry>
+
+</feed>
+
+
