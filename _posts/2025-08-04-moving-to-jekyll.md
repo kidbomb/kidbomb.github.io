@@ -1,13 +1,9 @@
 ---
 layout: post
 title: Moving to Jekyll
-categories: blogging, jekyll
+categories: blogging jekyll
 description: I used to have an old blog on Wordpress. That makes no sense for a static website.
 ---
-
-I used to have an old blog on Wordpress. That makes no sense for a static website.
-
-<!--more-->
 
 As the time went by, I realized that:
 
