@@ -2,11 +2,14 @@
 layout: post
 title: Moving to Jekyll
 categories: blogging, jekyll
+description: I used to have an old blog on Wordpress. That makes no sense for a static website.
 ---
 
-# Introduction
+I used to have an old blog on Wordpress. That makes no sense for a static website.
 
-I used to have an old blog on Worpress. As the time went by, I realized that:
+<!--more-->
+
+As the time went by, I realized that:
 
  - **Maintenance cost was more than what I expected.** My first deployment was an EC2 with no ALB and a internal database. I am very fond of the "treat you infra as cattle, not pet" principle, so I would need to move away the database to a managed one, while also having a method to deploy the infrastructure easily - ideally, with code;
  - **Wordpress was a liability.** Over the years, Wordpress got a bad rap with the amount of vulnerabilities discovered. A few friends of mine have blogs with were hit because of them;
@@ -91,6 +94,10 @@ export PATH="$HOME/.rbenv/versions/3.3.1/bin:$PATH"
 You should change the website title and description by changing the corresponding tags on `_config.yml`
 
 # Publishing
+
+I used to have a website on Github Pages, whcih was maintained separately from my Wordpress blog. I now want to merge them together and sue a single repository to publish to both. So now what I do is:
+ - Push to kidbomb.github.io
+ - Sync changes with `aws s3 sync _site s3://blog.filiperodrigues.me --size-only --storage-class REDUCED_REDUNDANCY`
 
 # Final thoughts
  - Felt like I was on 2005 using Scriptaculous, with no extra bells and whistles
