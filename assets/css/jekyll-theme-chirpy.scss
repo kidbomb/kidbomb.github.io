@@ -9,3 +9,41 @@
 ';
 
 /* append your custom style below */
+
+/* Accent color: terminal green (mirrors theme's light/dark scoping) */
+@mixin accent($color) {
+  --link-color: #{$color};
+  --sidebar-active-color: #{$color};
+  --toc-highlight: #{$color};
+  --checkbox-checked-color: #{$color};
+  --btn-share-hover-color: #{$color};
+}
+
+html {
+  @media (prefers-color-scheme: light) {
+    &:not([data-mode]),
+    &[data-mode='light'] {
+      @include accent(#2e9e4f);
+    }
+
+    &[data-mode='dark'] {
+      @include accent(#3fc463);
+    }
+  }
+
+  @media (prefers-color-scheme: dark) {
+    &:not([data-mode]),
+    &[data-mode='dark'] {
+      @include accent(#3fc463);
+    }
+
+    &[data-mode='light'] {
+      @include accent(#2e9e4f);
+    }
+  }
+}
+
+/* Post title in accent green */
+article > header > h1 {
+  color: var(--link-color);
+}
