@@ -8,9 +8,9 @@ I'm Filipe Paz Rodrigues. I write about security, smartcards, and embedded
 devices, and I use this blog to work through things in more depth than a
 thread or a set of notes allows.
 
-Most of what ends up here starts the same way: I read about something that 
-sparkles my interest, then I start writing about it. I make an effort for 
-all of my blog posts to be independently verifyable by providing source code
+Most of what ends up here starts the same way: I read about something that
+sparks my interest, then I start writing about it. I make an effort for
+all of my blog posts to be independently verifiable by providing source code
 and references.
 
 ## What's here
@@ -26,6 +26,46 @@ Two series so far, both best read in order:
   `createContainer` hooks made it possible.
 
 Everything is indexed under [tags](/tags/) and [archives](/archives/).
+
+## Open source
+
+Most of my open source work has been on the same problem from different
+angles: making USB smartcard readers work on embedded hardware. The
+[CCID](https://en.wikipedia.org/wiki/CCID_(protocol)) specification is how a
+host talks to a smartcard reader over USB, and it tends to be the missing
+piece in otherwise capable USB stacks.
+
+- **[Flipper Zero](https://github.com/flipperdevices/flipperzero-firmware)** —
+  I added CCID support, starting with [initial USB CCID
+  support](https://github.com/flipperdevices/flipperzero-firmware/pull/3048)
+  in 2023 and building it up over about a dozen pull requests: [ISO7816
+  support](https://github.com/flipperdevices/flipperzero-firmware/pull/3681),
+  a [worker
+  thread](https://github.com/flipperdevices/flipperzero-firmware/pull/3785),
+  and [interrupt
+  support](https://github.com/flipperdevices/flipperzero-firmware/pull/4198).
+  It now ships as a standalone app in the [official application
+  catalog](https://github.com/flipperdevices/flipper-application-catalog/pull/1163),
+  with the source at
+  [kidbomb/flipper-ccid-app](https://github.com/kidbomb/flipper-ccid-app).
+- **[LUFA](https://github.com/abcminiuser/lufa)** — the CCID class driver for
+  this AVR USB library, contributed in 2018: [low-level and class driver
+  changes](https://github.com/abcminiuser/lufa/pull/126), [PC-to-Reader
+  XfrBlock](https://github.com/abcminiuser/lufa/pull/131), and [Get/Set
+  Parameters](https://github.com/abcminiuser/lufa/pull/135).
+- **[libusb_stm32](https://github.com/flipperdevices/libusb_stm32)** — [CCID
+  support](https://github.com/flipperdevices/libusb_stm32/pull/1) for the STM32
+  USB device stack.
+- **[Trivy Operator](https://github.com/aquasecurity/trivy-operator)** — a
+  [fix for client/server mode
+  scans](https://github.com/aquasecurity/trivy-operator/pull/1344) in Aqua
+  Security's Kubernetes scanner.
+
+Alongside those, a few smaller things of my own: a [smartcard simulator on an
+ATtiny85](https://github.com/kidbomb/sc-attiny), a [smartcard built as a
+PCB](https://github.com/kidbomb/sc-pcb), and
+[tooling](https://github.com/kidbomb/neander) for the Neander educational
+processor.
 
 ## Elsewhere
 
