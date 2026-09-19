@@ -1,8 +1,7 @@
 ---
 layout: post
 title: Moving to Jekyll
-categories: blogging jekyll
-tags: blogging jekyll wordpress github-pages
+tags: meta
 description: Why I have moved from hosting a blog on WordPress to static hosting
 ---
 

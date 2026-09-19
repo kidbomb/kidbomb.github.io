@@ -1,0 +1,25 @@
+{%- comment -%}
+Renders navigation for a multi-part series.
+
+Opt in from a post's front matter:
+
+  series: Container runtimes
+  series_order: 3
+  series_title: runc init stage   # optional, defaults to the post title
+
+Then place `{% include series-nav.html %}` where the list should appear.
+
+Parts are discovered from site.posts, so adding or reordering a part
+updates the navigation in every other part automatically. Output is
+Markdown, rendered by kramdown along with the rest of the post.
+{%- endcomment -%}
+
+{%- assign parts = site.posts | where: 'series', page.series | sort: 'series_order' -%}
+{%- if parts.size > 1 -%}
+Series navigation:
+
+{% for part in parts -%}
+{%- assign label = part.series_title | default: part.title -%}
+- Part {{ part.series_order }}: {% if part.url == page.url %}{{ label }} (this post){% else %}[{{ label }}]({{ part.url | relative_url }}){% endif %}
+{% endfor %}
+{%- endif -%}
