@@ -13,6 +13,13 @@ sparks my interest, then I start writing about it. I make an effort for
 all of my blog posts to be independently verifiable by providing source code
 and references.
 
+> **Disclaimer:** I use large language models as part of my writing process.
+> I am the one that always starts the draft, while AI helps me with additional
+> information, restructuring, and catching mistakes. The code,
+> the commands, their output, and the sources are always independently
+> verified before a post is published.
+{: .prompt-info }
+
 ## What's here
 
 Two series so far, both best read in order:
