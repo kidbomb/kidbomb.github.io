@@ -1,7 +1,8 @@
 # The Site Configuration
 
-# Import the theme
-theme: jekyll-theme-chirpy
+plugins:
+  - jekyll-seo-tag
+  - jekyll-sitemap
 
 # The language of the webpage › http://www.lingoes.net/en/translator/langcode.htm
 # If it has the same name as one of the files in folder `_data/locales`, the layout language will also be changed,
@@ -16,7 +17,7 @@ timezone: America/Chicago
 
 title: Filipe Rodrigues Blog # the main title
 
-tagline: My thoughts and research on security, smartcards and embedded devices # it will display as the subtitle
+tagline: Notes on security, smartcards and embedded devices. # it will display as the subtitle
 
 description: >- # used by seo meta and the atom feed
   My thoughts and research on security, smartcards and embedded devices.
@@ -33,7 +34,7 @@ twitter:
 
 social:
   name: Filipe Paz Rodrigues
-  email: kidbomb@gmail.com
+  email: kidomb@gmail.com 
   links:
     - https://twitter.com/kidbomb
     - https://github.com/kidbomb
@@ -90,7 +91,7 @@ theme_mode: # [light | dark]
 # will be added to all media resources (site avatar, posts' images, audio and video files) paths starting with '/'
 #
 # e.g. 'https://cdn.com'
-cdn: "https://chirpy-img.netlify.app"
+cdn:
 
 # the avatar on sidebar, support local or CORS resources
 #avatar: "/commons/avatar.jpg"
@@ -142,7 +143,6 @@ pwa:
     deny_paths:
       # - "/example"  # URLs match `<SITE_URL>/example/*` will not be cached by the PWA
 
-paginate: 10
 
 # The base URL of your site
 baseurl: ""
@@ -158,7 +158,7 @@ kramdown:
     span:
       line_numbers: false
     block:
-      line_numbers: true
+      line_numbers: false
       start_line: 1
 
 collections:
@@ -213,12 +213,17 @@ exclude:
   - purgecss.js
   - "*.config.js"
   - "package*.json"
+  - serve.sh
+  # Leftovers from the old Chirpy theme (no longer built)
+  - _javascript
+  - _sass
+  - _includes
+  - _data
+  - assets/css
+  - assets/js
+  - _tabs/archives.md
+  - _tabs/categories.md
+  - _tabs/tags.md
 
-jekyll-archives:
-  enabled: [tags]
-  layouts:
-    tag: tag
-  permalinks:
-    tag: /tags/:name/
 
 excerpt_separator: <!--more-->
